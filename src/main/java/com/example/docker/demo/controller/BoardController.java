@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "v3/board")
+@RequestMapping(value = "v1/board")
 public class BoardController {
     @Autowired
     BoardService boardService;
